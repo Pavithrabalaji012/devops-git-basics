@@ -1,0 +1,32 @@
+mkdir devops-git-basics
+ls
+git init
+cd devops-git-basics/
+ls
+touch README.md
+l
+ls
+vi README.md
+ls
+touch version.txt
+echo "v1.0.0" >version.txt
+cat version.txt
+git add .
+git status
+git commit -m "created new files"
+git status
+git remote add origin "https://github.com/Pavithrabalaji012/devops-git-basics.git"
+git status
+git remote add origin https://github.com/Pavithrabalaji012/devops-git-basics.git
+cd ..\devops-git-basics\                                                                                            
+ls                                                                                                                  
+git push origin main                                                                                                
+git push origin master                                                                                              
+git status                                                                                                          
+ls                                                                                                                  
+echo "v1.0.1" >version.txt                                                                                          
+ls                                                                                                                  
+git add .                                                                                                           
+git commit -m "updated version.txt file"                                                                            
+git status                                                                                                          
+git push origin master 
